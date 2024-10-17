@@ -1,18 +1,18 @@
 Client_Order_ID,Instrument_Name,Side,Price,Quantity
-client_001,Rose,1,50.00,100        # Buy 100 units of Rose at 50.00
-client_002,Lavender,2,51.00,100     # Sell 100 units of Lavender at 51.00 (matches client_001)
-client_003,Rose,1,50.00,200         # Buy 200 units of Rose at 50.00
-client_004,Rose,2,50.00,200         # Sell 200 units of Rose at 50.00 (matches client_003 perfectly)
-client_005,Rose,2,50.00,100         # Sell 100 units of Rose at 50.00 (matches client_001 perfectly)
-client_006,Lotus,1,52.00,500        # Buy 500 units of Lotus
+client_001,Rose,1,50.00,100        
+client_002,Lavender,2,51.00,100     
+client_003,Rose,1,50.00,200         
+client_004,Rose,2,50.00,200         
+client_005,Rose,2,50.00,100         
+client_006,Lotus,1,52.00,500        
 client_007,Lily,2,51.50,100         # Invalid instrument (Lily not in list)
-client_008,Tulip,2,55.00,300        # Sell 300 units of Tulip
-client_009,Rose,1,50.00,250         # Buy 250 units of Rose (partial match expected with later order)
-client_010,Rose,2,50.00,250         # Sell 250 units of Rose (exact match with client_009)
-client_011,Orchid,1,53.00,1000      # Buy 1000 units of Orchid
-client_012,Orchid,2,53.00,1000      # Sell 1000 units of Orchid (matches client_011 perfectly)
-client_013,Tulip,1,55.00,300        # Buy 300 units of Tulip (matches client_008)
-client_014,Rose,3,50.00,300         # Invalid side (side must be 1 or 2)
-client_015,Tulip,1,55.00,350        # Buy 350 units of Tulip
-client_016,Rose,2,50.00,25          # Invalid size (size must be multiple of 10 and between 10-1000)
-client_017,Rose,2,49.00,100         # Invalid price (must be > 0)
+client_008,Tulip,2,55.00,300        
+client_009,Rose,1,50.00,250         
+client_010,Rose,2,50.00,250         
+client_011,Orchid,1,53.00,1000      
+client_012,Orchid,2,53.00,1000      
+client_013,Tulip,1,55.00,300        
+client_014,Rose,3,50.00,300         # Invalid side 
+client_015,Tulip,1,55.00,350        
+client_016,Rose,2,50.00,25          # Invalid size 
+client_017,Rose,2,49.00,100         # Invalid price 
