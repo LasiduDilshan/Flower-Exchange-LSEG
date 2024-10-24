@@ -65,7 +65,6 @@ To speed up processing:
   Client_Order_ID,Instrument_Name,Side,Price,Quantity
   client_001,Rose,1,50.00,100
   ```
-
 ## How to Use
 
 1. **Prepare Input**: Ensure your orders are listed in a CSV file with the required format.
