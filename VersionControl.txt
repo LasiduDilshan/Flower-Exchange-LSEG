@@ -4,4 +4,5 @@ Version 3: Changing the design patterns and optimizations added
 Version 4: Best buy-sell matching and Optimization using threading
 Version 5: Correction of the core logic
 Version 6: Time optimization 
-Try to fix the problem with New and Try to get maximum profit.
+Version 7: Data clering
+Version 8: Data clearing integration
