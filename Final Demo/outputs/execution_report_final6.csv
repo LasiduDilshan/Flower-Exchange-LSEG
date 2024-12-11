@@ -1,0 +1,7 @@
+Order ID,Client Order ID,Instrument,Side,Exec Status,Quantity,Price,Reason,Transaction Time
+ord1,aa1,,1,Reject,100,55,Invalid Fields,2024-11-25 13:45:28
+ord2,aa2,Rose,3,Reject,100,65,Invalid Side,2024-11-25 13:45:28
+ord3,aa3,Rose,2,Reject,55,55,Invalid Size,2024-11-25 13:45:28
+ord4,aa3,Rose,2,Reject,100,-55,Invalid Price,2024-11-25 13:45:28
+ord5,aa4,Rose,1,Reject,1100,55,Invalid Size,2024-11-25 13:45:28
+ord6,aa5,Mango,1,Reject,100,55,Invalid Instrument,2024-11-25 13:45:28

@@ -1,0 +1,18 @@
+Client_Order_ID,Instrument_Name,Side,Price,Quantity
+client_001,Rose,1,50.00,100        
+client_002,Lavender,2,51.00,100     
+client_003,Rose,1,50.00,200         
+client_004,Rose,2,50.00,200         
+client_005,Rose,2,50.00,100         
+client_006,Lotus,1,52.00,500        
+client_007,Lily,2,51.50,100         # Invalid instrument (Lily not in list)
+client_008,Tulip,2,55.00,300        
+client_009,Rose,1,50.00,250         
+client_010,Rose,2,50.00,250         
+client_011,Orchid,1,53.00,1000      
+client_012,Orchid,2,53.00,1000      
+client_013,Tulip,1,55.00,300        
+client_014,Rose,3,50.00,300         # Invalid side 
+client_015,Tulip,1,55.00,350        
+client_016,Rose,2,50.00,25          # Invalid size 
+client_017,Rose,2,49.00,100         # Invalid price 

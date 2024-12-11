@@ -1,0 +1,2 @@
+> g++ -std=c++11 -pthread Main.cpp Order.cpp OrderBook.cpp -o flower_exchange
+> ./flower_exchange
